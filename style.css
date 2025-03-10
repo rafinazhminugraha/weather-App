@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.weatherForm {
+  margin: 20px;
+}
+.cityInput {
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px hsl(182, 100%, 56%);
+  padding-left: 10px;
+  margin-right: 5px;
+}
+.cityInput::placeholder {
+  color: rgba(61, 129, 129, 0.568);
+}
+button {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px hsl(182, 100%, 56%);
+  background-color: hsl(189, 39%, 45%);
+  cursor: pointer;
+  color: white;
+}
+button:hover {
+  background-color: hsl(189, 43%, 53%);
+  transition: 0.15s;
+}
+button:active {
+  background-color: hsl(189, 67%, 67%);
+}
+.card {
+  background-image: linear-gradient(rgba(0, 170, 255, 0.415), rgb(165, 255, 213));
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  padding: 30px;
+  width: 300px;
+  height: 400px;
+  font-weight: bold;
+}
+.cityDisplay, .tempDisplay {
+  font-weight: bold;
+  margin: 5px;
+}
+.tempDisplay {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.humadityDisplay {
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+.descDisplay {
+  margin: 0px;
+}
+.weatherEmoji {
+  font-size: 5rem;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.errorDisplay {
+  margin-top: 0px;
+  font-size: 2rem;
+}
