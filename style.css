@@ -51,6 +51,7 @@ button:active {
   padding: 30px;
   width: 300px;
   font-weight: bold;
+  border-radius: 10px;
 }
 .cityDisplay, .tempDisplay {
   font-weight: bold;
